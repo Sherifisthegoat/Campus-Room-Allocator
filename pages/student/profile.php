@@ -146,6 +146,11 @@ $userDetails = fetchOne("SELECT * FROM users WHERE user_id = ?", [$user_id]);
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="request-room.php">
+                            <i class="fas fa-paper-plane"></i> Request Room
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" href="profile.php">
                             <i class="fas fa-user"></i> Profile
                         </a>
