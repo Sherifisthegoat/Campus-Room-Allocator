@@ -138,6 +138,9 @@ $totalStudents = fetchOne("SELECT COUNT(*) as count FROM users WHERE user_role =
             <p class="lead mb-5">Streamlined room management for students and administrators</p>
             
             <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <a href="pages/gallery.php" class="btn btn-custom">
+                    <i class="fas fa-images"></i> View Gallery
+                </a>
                 <a href="auth/login.php" class="btn btn-custom">
                     <i class="fas fa-sign-in-alt"></i> Login
                 </a>
